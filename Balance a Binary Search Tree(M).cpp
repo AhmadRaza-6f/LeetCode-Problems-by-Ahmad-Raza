@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-void inorder(TreeNode* root,vector<int> &ans){
+void inorder(TreeNode* root,vector<int> &ans){ 
     if(!root)
         return;
     inorder(root->left,ans);

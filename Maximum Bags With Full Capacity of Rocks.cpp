@@ -6,7 +6,7 @@ public:
         for(int i = 0 ; i < n; i++){
             extra[i] = cap[i] - rocks[i];
         }
-        int ans = 0;
+        int ans = 0; 
         sort(extra.begin(),extra.end());
         for(int val : extra){
             if(val <= extraRocks){
